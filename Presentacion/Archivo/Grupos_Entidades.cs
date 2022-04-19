@@ -18,7 +18,7 @@ namespace Presentacion
         public string connectionString = ConfigurationManager.ConnectionStrings["default"].ConnectionString;
         SqlConnection connection;
 
-        Negocio_GruposEntidades grupoEntidades = new Negocio_GruposEntidades();
+        Negocio_GruposEntidades grupoEntidades;
         private string idGrupoEntidades = null;
         private bool Editar = false;
 
@@ -26,6 +26,7 @@ namespace Presentacion
         public Grupos_Entidades()
         {
             connection = new SqlConnection(connectionString);
+            grupoEntidades = new Negocio_GruposEntidades(connection);
             InitializeComponent();
         }
 
@@ -40,8 +41,7 @@ namespace Presentacion
 
         private void MostrarProductos()
         {
-            Negocio_GruposEntidades ObjetosgrupoEntidades = new Negocio_GruposEntidades();
-            dataGridView1.DataSource = ObjetosgrupoEntidades.MostrarGrupoEntidades();
+            dataGridView1.DataSource = grupoEntidades.MostrarGrupoEntidades();
         }
 
         private  void BtnGuardar_Click(object sender, EventArgs e)
@@ -122,6 +122,21 @@ namespace Presentacion
             }
         }
 
+        //Evento Volver al menu principal
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            VolverAlMenuPrincipal();
+        }
 
+        private void VolverAlMenuPrincipal()
+        {
+            this.Close();            
+        }
+
+        private void Grupos_Entidades_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+            Menu_Principal.Intance.Show();
+        }
     }
 }
