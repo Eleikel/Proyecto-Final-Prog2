@@ -1,5 +1,6 @@
 ﻿using Dato.Model;
 using Negocio.ModelosDto;
+using Presentacion.Archivo.Funcionalidades_de_Entidades;
 using Presentacion.Login;
 using System;
 using System.Collections.Generic;
@@ -38,12 +39,12 @@ namespace Presentacion
         {
             Acerca_De acerca_De = new Acerca_De();
             acerca_De.Show();
-this.Hide();
+            this.Hide();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-this.Hide();
+            this.Hide();
         }
 
         private void Menu_Principal_Load(object sender, EventArgs e)
@@ -84,26 +85,31 @@ this.Hide();
 
         private void entidadesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Entidades entidades = new Entidades();
+
+            Agregar_RedesSociales agregar_RedesSociales = new Agregar_RedesSociales();
             this.Hide();
-            entidades.Show();
+            agregar_RedesSociales.Show();
+
+
         }
 
         private void Menu_Principal_FormClosing(object sender, FormClosingEventArgs e)
         {
-
-            if (MessageBox.Show("Estas seguro de querer salir del menu principal ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+            if (GlobalRepositoty.Instance.value)
             {
-                e.Cancel = true;
-            }
-            else
-            {
-                e.Cancel = false;
+                if (MessageBox.Show("Estas seguro de querer salir del menu principal ?", "ATENCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.No)
+                {
+                    e.Cancel = true;
+                }
+                else
+                {
+                    e.Cancel = false;
+                }
             }
         }
 
         private void Menu_Principal_FormClosed(object sender, FormClosedEventArgs e)
-        {                        
+        {
         }
     }
 }

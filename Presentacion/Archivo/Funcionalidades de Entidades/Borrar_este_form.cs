@@ -2,28 +2,19 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Presentacion
+namespace Presentacion.Archivo.Funcionalidades_de_Entidades
 {
-    public partial class Form1 : Form
+    public partial class Borrar_este_form : Form
     {
-        private SqlConnection _con;
-        public Form1(SqlConnection con)
+        public Borrar_este_form()
         {
             InitializeComponent();
-            _con = con;
-        }
-
-      
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Presentacion.Archivo.Funcionalidades_de_Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,5 +19,22 @@ namespace Presentacion
         }
 
         public static string Id { get; internal set; }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            Agregar_RedesSociales agregar_RedesSociales = new Agregar_RedesSociales();
+            this.Hide();
+            agregar_RedesSociales.Show();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            //Borrar este comentario
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Este boton is useless. Hay que borrarlo
+        }
     }
 }

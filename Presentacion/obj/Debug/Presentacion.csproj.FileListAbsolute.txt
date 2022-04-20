@@ -190,9 +190,7 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\ru\Mi
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Acerca_De.resources
-C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Form1.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Grupos_Entidades.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmRecuperarContra.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Menu_Principal.resources
@@ -204,5 +202,12 @@ C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Prese
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Tipos_Entidades.resources
 C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.Login.frmMenu.resources
+<<<<<<< HEAD
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Tipos_Entidades.resources
 C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Login.frmMenu.resources
+=======
+C:\Users\Franklyn\Source\Repos\Proyecto-Final-Prog2\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+>>>>>>> 694e792082383be60f6042cf40a1d88ae4d00762
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Entidades.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Archivo.Funcionalidades_de_Entidades.Agregar_Entidades.resources
+C:\Users\Eleikel\Desktop\ITLA\Proyecto Final\Presentacion\obj\Debug\Presentacion.Archivo.Funcionalidades_de_Entidades.Agregar_RedesSociales.resources
