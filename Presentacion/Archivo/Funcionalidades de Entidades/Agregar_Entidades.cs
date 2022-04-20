@@ -27,7 +27,6 @@ namespace Presentacion.Archivo.Funcionalidades_de_Entidades
             LimpiarTextBox();
         }
 
-
         public void LimpiarTextBox()
         {
             txtDescripcion.Clear();
