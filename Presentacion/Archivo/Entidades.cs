@@ -18,5 +18,10 @@ namespace Presentacion
         }
 
         public static string Id { get; internal set; }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Eliminar
+        }
     }
 }
