@@ -214,6 +214,9 @@
     <Compile Include="Archivo\Tipos_Entidades.Designer.cs">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Archivo\Entidades.resx">
+      <DependentUpon>Entidades.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Archivo\Tipos_Entidades.resx">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </EmbeddedResource>
