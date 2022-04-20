@@ -29,7 +29,7 @@ namespace Presentacion
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            //Borrar este comentario
+            //Borrar este comentari
         }
 
         private void button1_Click(object sender, EventArgs e)
