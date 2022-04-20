@@ -175,6 +175,12 @@
     <Compile Include="Archivo\Funcionalidades de Entidades\Agregar_RedesSociales.Designer.cs">
       <DependentUpon>Agregar_RedesSociales.cs</DependentUpon>
     </Compile>
+    <Compile Include="Archivo\Funcionalidades de Entidades\Borrar_este_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Archivo\Funcionalidades de Entidades\Borrar_este_form.Designer.cs">
+      <DependentUpon>Borrar_este_form.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComboBoxItem.cs" />
     <Compile Include="GlobalRepositoty.cs" />
     <Compile Include="Sistema\Acerca_De.cs">
