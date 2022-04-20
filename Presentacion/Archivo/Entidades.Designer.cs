@@ -49,6 +49,7 @@
             this.Controls.Add(this.button1);
             this.Name = "Entidades";
             this.Text = "Entidades";
+            this.Load += new System.EventHandler(this.Entidades_Load);
             this.ResumeLayout(false);
 
         }

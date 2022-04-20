@@ -23,5 +23,10 @@ namespace Presentacion
         {
             //Eliminar
         }
+
+        private void Entidades_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
