@@ -128,7 +128,7 @@ namespace Presentacion
             VolverAlMenuPrincipal();
         }
 
-        private void VolverAlMenuPrincipal()
+        public void VolverAlMenuPrincipal()
         {
             this.Close();            
         }

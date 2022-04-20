@@ -16,7 +16,7 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public sealed partial class Menu_Principal : Form
+    public  partial class Menu_Principal : Form
     {
         public static Menu_Principal Intance { get; } = new Menu_Principal();
 
@@ -27,7 +27,7 @@ namespace Presentacion
         //Dato.Model.Entidades _entidades = new Dato.Model.Entidades();
         EntidadLoginDto entidadLoginDto = new EntidadLoginDto();
 
-        private Menu_Principal()
+        public Menu_Principal()
         {
             InitializeComponent();
             _con = new SqlConnection(connectionString);
@@ -38,12 +38,12 @@ namespace Presentacion
         {
             Acerca_De acerca_De = new Acerca_De();
             acerca_De.Show();
-this.Hide();
+            this.Hide();
         }
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-this.Hide();
+            this.Hide();
         }
 
         private void Menu_Principal_Load(object sender, EventArgs e)
@@ -103,7 +103,7 @@ this.Hide();
         }
 
         private void Menu_Principal_FormClosed(object sender, FormClosedEventArgs e)
-        {                        
+        {
         }
     }
 }
