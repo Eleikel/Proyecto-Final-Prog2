@@ -163,26 +163,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Archivo\Funcionalidades de Entidades\Agregar_Entidades.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Archivo\Funcionalidades de Entidades\Agregar_Entidades.Designer.cs">
-      <DependentUpon>Agregar_Entidades.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Archivo\Funcionalidades de Entidades\Agregar_RedesSociales.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Archivo\Funcionalidades de Entidades\Agregar_RedesSociales.Designer.cs">
-      <DependentUpon>Agregar_RedesSociales.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Archivo\Funcionalidades de Entidades\Borrar_este_form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Archivo\Funcionalidades de Entidades\Borrar_este_form.Designer.cs">
-      <DependentUpon>Borrar_este_form.cs</DependentUpon>
-    </Compile>
     <Compile Include="ComboBoxItem.cs" />
-    <Compile Include="GlobalRepositoty.cs" />
     <Compile Include="Sistema\Acerca_De.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -194,6 +175,12 @@
     </Compile>
     <Compile Include="Archivo\Entidades.Designer.cs">
       <DependentUpon>Entidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Archivo\Grupos_Entidades.cs">
       <SubType>Form</SubType>
@@ -230,17 +217,14 @@
     <EmbeddedResource Include="Archivo\Entidades.resx">
       <DependentUpon>Entidades.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Archivo\Funcionalidades de Entidades\Agregar_Entidades.resx">
-      <DependentUpon>Agregar_Entidades.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Archivo\Funcionalidades de Entidades\Agregar_RedesSociales.resx">
-      <DependentUpon>Agregar_RedesSociales.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Archivo\Tipos_Entidades.resx">
       <DependentUpon>Tipos_Entidades.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sistema\Acerca_De.resx">
       <DependentUpon>Acerca_De.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Archivo\Grupos_Entidades.resx">
       <DependentUpon>Grupos_Entidades.cs</DependentUpon>

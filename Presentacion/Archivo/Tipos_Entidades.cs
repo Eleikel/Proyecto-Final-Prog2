@@ -313,5 +313,21 @@ namespace Presentacion
         {
             Menu_Principal.Intance.Show();            
         }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            VolverAlMenu();
+        }
+
+        public void VolverAlMenu()
+        {
+            this.Close();
+        }
+
+        private void Tipos_Entidades_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Menu_Principal.Intance.Show();
+
+        }
     }
 }
